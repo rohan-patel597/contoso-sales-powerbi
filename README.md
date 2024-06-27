@@ -1,5 +1,4 @@
-# contoso-sales-powerbi
-# PowerBI-Spotify-Dashboard
+# Contoso-Sales-PowerBI
 Welcome to my PowerBI Showcase GitHub repository! Here, you'll find an interacive dashboard, insightful report, and data visualizations demonstrating my expertise in PowerBI, a powerful business intelligence tool.
 
 ## [Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiOTkzZTI0MzAtMWFiNi00MjEzLWFhYTItMjIyZGNiMDljMGZkIiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9)
