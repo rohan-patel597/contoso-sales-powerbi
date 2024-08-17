@@ -7,27 +7,57 @@ Welcome to my PowerBI Showcase GitHub repository! Here, you'll find an interaciv
 
 - [Introduction](#introduction)
 - [Dataset Source](#dataset-source)
+- [Dataset Contents and Structure](#dataset-contents-and-structure)
 - [Dashboard Insights](#dashboard-insights)
 - [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
+- [Recommendations](#recommendations)
 - [Features](#features)
 - [License](#license)
 
 ## Introduction
-This repository offers a Power BI dashboard designed to analyze sales data from the fictitious firm, Contoso Inc. The dashboard gives insights into key sales indicators and allows users to interact with the data using various features.
+This repository offers a Power BI dashboard designed to analyze sales data from the Contoso Inc. The dashboard gives insights into key sales indicators, to understand the key factors, and allows users to interact with the data using various features.
 
-![Dashboard Screenshot](./Dashboard%20Image/sales.png)
-
-![](./Dashboard%20Image/keyinfluencer.png)
 
 ## Dataset Source
 The dataset used for this dashboard is **"ContosoSalesForPowerBI"**, which includes over two million rows of sales data. The dataset can be downloaded from the following link:
 
 - [Contoso Sales Data for Power BI](https://www.microsoft.com/en-us/download/details.aspx?id=46801)
 
+## Dataset Contents and Structure
+The Contoso sales data consists over 2.28 millions rows, providing a robust datasets that captures extensive sales transactions. This will allow me to perform comprehensive analysis across various dimensions including time, product categories, and sales channels and ensuring the insights derived are statistically significant and reflective in business trends.
 
+![Dashboard Screenshot](./Dashboard%20Image/Data%20Model.png)
+
+
+#### Analyze Contoso's sales data to understand key trends and identify opportunities for growth.
+Requirement Gathering:
+The following are our stakeholders: Sales, Marketing, Product & Operations
+
+### To understand more about data and the context, we need to ask the following questions:
+1. How are sales performing year over year (YoY)?
+2. What impact do discounts have on sales ?
+3. Which Product categories are driving revenues?
+4. How the different sales channels are performing in the each years? 
+
+
+The questions will help us to understand the business nature steps to analyse the categories, identifying the KPI
+
+**North Star KPI:** Net sales after discounts.
+
+**Secondary Metrics:** Gross Sales, Total Discount Amount, Sales by channel and class.
 
 ## Dashboard Insights
 The dashboard provides comprehensive insights into Contoso's sales performance, by emphasizing important aspects including net and gross sales, yearly sales trends, sales distribution by class and channel, discount trends, and significant variables influencing unit prices. With the use of these capabilities, stakeholders may manage discounts wisely, enhance pricing tactics, and maximize sales strategies by making data-driven decisions.
+
+In preparation for analysis a rigorous assessment of data quality was undertaken to ascertain and address potential issues.
+
+Data Cleaning: Changing any non relevant data, adding new columns or converting into datatime format, creating helper columns, fixing typo in naming convention, maintaining data consistency and removing redundancy.
+
+
+
+![Dashboard Screenshot](./Dashboard%20Image/sales.png)
+
+![](./Dashboard%20Image/keyinfluencer.png)
 
 
 ## Key Performance Indicators (KPIs)
@@ -73,6 +103,14 @@ The dashboard highlights several key features:
     - ***Revenue Analysis***: Highlight high-revenue categories such as computers, cameras, and televisions using a tree map.
     ***Strategic Focus***: Determine which product lines generate the highest revenues and require strategic attention.
 
+
+## Recommendations
+Based on the comprehensive analysis conducted, the following recommendations are proposed for consideration by the appropriate cross-functional teams.
+
+### Sales and Marketing
+- Leverage the most effective sales channels and allocate resources to peak periods.
+
+- Tailor the campaigns to support top-selling products
 
 ## License
 
