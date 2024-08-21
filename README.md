@@ -9,6 +9,7 @@ Welcome to my PowerBI Showcase GitHub repository! Here, you'll find an interaciv
 - [Dataset Source](#dataset-source)
 - [Dataset Contents and Structure](#dataset-contents-and-structure)
 - [Dashboard Insights](#dashboard-insights)
+- [Sales Overview](#sales-overview)
 - [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
 - [Recommendations](#recommendations)
 - [Features](#features)
@@ -26,7 +27,7 @@ The dataset used for this dashboard is **"ContosoSalesForPowerBI"**, which inclu
 ## Dataset Contents and Structure
 The Contoso sales data consists over 2.28 millions rows, providing a robust datasets that captures extensive sales transactions. This will allow me to perform comprehensive analysis across various dimensions including time, product categories, and sales channels and ensuring the insights derived are statistically significant and reflective in business trends.
 
-![Dashboard Screenshot](./Dashboard%20Image/Data%20Model.png)
+![Data Model](./Dashboard%20Image/Data%20Model.png)
 
 
 #### Analyze Contoso's sales data to understand key trends and identify opportunities for growth.
@@ -54,11 +55,29 @@ In preparation for analysis a rigorous assessment of data quality was undertaken
 Data Cleaning: Changing any non relevant data, adding new columns or converting into datatime format, creating helper columns, fixing typo in naming convention, maintaining data consistency and removing redundancy.
 
 
+## Sales Overview
 
-![Dashboard Screenshot](./Dashboard%20Image/sales.png)
+### By Time Period
+![Sales Overview](./Dashboard%20Image/sales.png)
+- Between 2011 and 2013, Contoso's total sales amounted to $8.3412 billion in gross sales and $8.1174 billion in net sales, highlighting the impact of discounts on revenue. The peak sales year was 2011, with $3.14 billion in sales, followed by a gradual decline in the subsequent years, which coincided with a notable reduction in discounting. 
 
+### Sales by Channel
+- The distribution of sales across different channels is prominently displayed, showing that the store channel was the leader with 58.18% of total sales. This was followed by internet sales at 20.25%, reseller at 13.25%, and catalog sales at 8.32%. These insights highlight the critical importance of in-store and online sales channels to Contoso's overall strategy.
+
+### Sales by Product Class
+- Sales were broken down by product class, revealing that the Regular class dominated with $5.18 billion in sales, followed by the Deluxe class at $1.96 billion, and the Economy class at $1.21 billion. This distribution indicates a strong customer preference for Regular class products, which is vital information for inventory management and marketing strategies.
+
+## By Product and Key Influencer
 ![](./Dashboard%20Image/keyinfluencer.png)
 
+### Discount Trends
+- Monthly discount trends were tracked to identify peak discount periods and seasonal tendencies. This data is crucial for optimizing discount strategies and ensuring that they align with broader business objectives.
+
+### Product and Regional Performance
+- A detailed treemap highlighted the performance of various product categories and subcategories, aiding in the identification of high-revenue areas that should be prioritized. Additionally, the regional sales distribution was analyzed, showing where the majority of sales occurred, which is essential for formulating regional market strategies.
+
+### Key Influencers
+- The dashboard also provided insights into key influencers of unit pricing, product category performance, and discount patterns. High-revenue categories like computers, cameras, and televisions were identified as critical areas that require strategic attention to maximize profitability. The influence of brand names, manufacturers, and product categories on unit price reductions was also analyzed, helping to refine pricing strategies and competitive positioning.
 
 ## Key Performance Indicators (KPIs)
 The dashboard features several KPIs to aid in the analysis:
@@ -109,8 +128,14 @@ Based on the comprehensive analysis conducted, the following recommendations are
 
 ### Sales and Marketing
 - Leverage the most effective sales channels and allocate resources to peak periods.
+- **Investigate YoY Sales Decline:** Conduct a deeper analysis to understand the underlying factors contributing to the significant YoY drop in sales from 2012 to 2013, beyond the easing of discounting strategies.
+- **Focus Marketing Efforts:** Increase marketing focus on high-performing product categories like Computers, Cameras, and Televisions. Consider reallocating budget from underperforming channels to more effective ones, like online sales and stores.
+- **Enhance Customer Loyalty:** Collaborate with the operations team to improve customer experience by reducing delivery times, especially for high-value customers.
 
-- Tailor the campaigns to support top-selling products
+### Product and Inventory
+- Tailor the campaigns to support top-selling products.
+- Optimize inventory levels based on seasonal demand forecasts to reduce overstock or stockouts.
+- **Address High Refund Rates:** Explore the reasons behind high refund rates in certain products and improve quality or customer support for these items to reduce dissatisfaction and returns.
 
 ## License
 
